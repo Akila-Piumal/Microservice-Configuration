@@ -1,13 +1,13 @@
 spring:
   application:
     name: item-service
-#data source
+  #data source
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/ItemManage?createDatabaseIfNotExist=true
-    password: sanu1234
+    password: 1234
     username: root
-#jpa
+  #jpa
   jpa:
     show-sql: true
     generate-ddl: true
